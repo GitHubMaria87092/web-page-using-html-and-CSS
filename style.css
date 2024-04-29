@@ -1,0 +1,77 @@
+ul
+{
+    background-color: white;
+    border-radius:40px ;
+}
+nav
+{
+    background-color: whitesmoke;
+    border-radius: 70px;
+}
+.btn-light
+{
+    border-radius: 40px;
+    border: 1px solid black;
+}
+.one
+{
+    background: url(img/Rectangle\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.email
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+}
+.btn-dark
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    font-size: 10px;
+}
+
+@media only screen and (max-width:1280px)
+{
+    .one
+    {
+        flex-direction: column;
+    }
+    .imgg
+    {
+        width: 100%;
+    }
+    .five
+    {
+        text-align: center;
+    }
+    .six
+    {
+        text-align: center;
+    }
+    .Three
+    {
+        flex-direction: column;
+    }
+    .four
+    {
+        width: 100%;
+    }
+    .maria
+    {
+        width: 100%;
+    }
+    .ali
+    {
+        flex-direction: column;
+    }
+    .hassan
+    {
+        display: flex;
+        align-items: center;
+    }
+}
